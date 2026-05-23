@@ -1,0 +1,9 @@
+{Komentar 1}
+program PJP1(IN,OUT);
+
+var
+  V,S,P,J : integer;
+begin
+(*     Komentar    *)
+  V := S > P * J + 2022
+end.

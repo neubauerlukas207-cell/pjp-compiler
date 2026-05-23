@@ -1,0 +1,10 @@
+program PJP3(IN,OUT)
+var
+  v,s,p,j,i,h,l : integer;
+
+begin
+   if v+s <> p*j then
+     i := h * (l + v) * s
+   else
+     j := 10 + -2 * (-v)
+end.

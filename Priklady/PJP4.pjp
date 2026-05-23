@@ -1,0 +1,6 @@
+program PJP4(IN,OUT);
+var
+  V,S,P,J : integer;
+begin
+   S := (V < S) or (P < J) and (J < P)
+end.

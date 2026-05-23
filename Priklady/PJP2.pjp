@@ -1,0 +1,12 @@
+program PJP2(IN,OUT);
+var
+  V,S,P,J : char;
+var
+  Total : integer;
+begin
+  V := #86;
+  S := #83;
+  P := 'P';
+  J := 'J';
+  Total := 2022
+end.

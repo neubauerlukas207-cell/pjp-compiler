@@ -1,0 +1,15 @@
+program RP5(IN,OUT);
+var
+  Cislo, Polovina, Zbytek : integer;
+var
+  JeSude : integer;
+begin
+  Cislo := 42;
+  Polovina := Cislo div 2;
+  Zbytek := Cislo mod 2;
+  if (Zbytek = 0) then
+    JeSude := 1
+  else
+    JeSude := 0;
+  Polovina := Polovina * 2 + Zbytek
+end.

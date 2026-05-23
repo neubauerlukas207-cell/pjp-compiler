@@ -1,0 +1,12 @@
+program PJP5 (IN, OUT);
+var
+   VSPJ : integer;
+
+begin
+   VSPJ := 10;
+   while  (VSPJ < 20)  do
+   
+   begin
+      VSPJ := VSPJ + 1
+   end
+end.

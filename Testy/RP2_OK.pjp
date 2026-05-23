@@ -1,0 +1,15 @@
+program RP2(IN,OUT);
+var
+  X, Y, Z, Max : integer;
+begin
+  X := 5;
+  Y := 12;
+  Z := 8;
+  if (X > Y) or (X > Z) then
+    Max := X
+  else
+    if (Y > Z) then
+      Max := Y
+    else
+      Max := Z
+end.

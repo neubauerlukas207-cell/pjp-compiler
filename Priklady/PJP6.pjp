@@ -1,0 +1,29 @@
+program PJP6(IN,OUT);
+var
+	Prvni, Druhy, Treti, Ctvrty : integer;
+
+begin
+	Prvni := 2;
+	Druhy := 6;
+	Treti := 1;
+	Ctvrty:= 1;
+
+	if (Druhy >= 1) OR (Druhy = 0) then (*P1*)
+	begin
+		while (Druhy > 0) do
+		begin
+			Treti := Treti * Prvni;
+			Druhy := Druhy - 1
+		end
+	end
+
+	else (*P2*)
+	begin
+		while (Druhy > 0) do
+		begin
+			Ctvrty := Ctvrty * Prvni;
+			Druhy := Druhy - 1;
+			Ctvrty := 1/Ctvrty
+		end
+	end	
+end.

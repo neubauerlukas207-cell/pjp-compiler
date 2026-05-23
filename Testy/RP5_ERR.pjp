@@ -1,0 +1,13 @@
+program RP5ERR(IN,OUT);
+var
+  A, B, C : integer;
+begin
+  A := 1;
+  { toto je komentar bez ukonceni
+  B := 2;
+  C := A + B;
+  if (C > 2) then
+    A := C
+  else
+    B := C
+end.

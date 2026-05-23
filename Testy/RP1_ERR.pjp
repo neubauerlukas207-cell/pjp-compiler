@@ -1,0 +1,11 @@
+program RP1ERR(IN,OUT);
+var
+  A, B : integer;
+begin
+  A := 10;
+  B := 20;
+  while (A < B) do
+  begin
+    A := A + 1
+  end
+end

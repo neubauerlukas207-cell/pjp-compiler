@@ -1,0 +1,11 @@
+program RP3ERR(IN,OUT);
+var
+  Cnt, Limit : integer;
+begin
+  Cnt := 0;
+  Limit := 5;
+  while (Cnt < Limit)
+  begin
+    Cnt := Cnt + 1
+  end
+end.

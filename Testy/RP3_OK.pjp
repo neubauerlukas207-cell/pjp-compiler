@@ -1,0 +1,18 @@
+program RP3(IN,OUT);
+var
+  I, J, N, Soucin : integer;
+begin
+  N := 5;
+  I := 1;
+  Soucin := 1;
+  while (I <= N) do
+  begin
+    J := I;
+    while (J > 1) do
+    begin
+      Soucin := Soucin * J;
+      J := J - 1
+    end;
+    I := I + 1
+  end
+end.

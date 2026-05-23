@@ -1,0 +1,17 @@
+program RP4(IN,OUT);
+var
+  Pismeno, Dalsi : char;
+var
+  Pocet : integer;
+begin
+  Pismeno := 'A';
+  Dalsi := #66;
+  Pocet := 0;
+  if not (Pismeno = Dalsi) then
+  begin
+    Pocet := Pocet + 1;
+    Pismeno := #65
+  end
+  else
+    Pocet := Pocet - 1
+end.

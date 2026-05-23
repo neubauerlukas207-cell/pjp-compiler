@@ -1,0 +1,11 @@
+program RP4ERR(IN,OUT);
+var
+  Val, Res : integer;
+begin
+  Val = 100;
+  Res := Val + 50;
+  if (Res > 100) then
+    Res := Res - 50
+  else
+    Res := Val
+end.
