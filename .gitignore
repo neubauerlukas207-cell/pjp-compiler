@@ -1,0 +1,7 @@
+# generované soubory flex/bison a binárky
+*.yy.c
+*.tab.c
+*.tab.h
+*.output
+*.o
+*.exe
